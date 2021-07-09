@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+		<servlet-name>InscriClient</servlet-name>
+		<servlet-class>com.Servlets.InscriClient</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InscriClient</servlet-name>
+		<url-pattern>/InscriClient</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ResClient</servlet-name>
+		<servlet-class>com.Servlets.ResClient</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ResClient</servlet-name>
+		<url-pattern>/ResClient</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>InscriClient2</servlet-name>
+		<servlet-class>com.Servlets.InscriClient2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InscriClient2</servlet-name>
+		<url-pattern>/InscriClient2</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Paiement</servlet-name>
+		<servlet-class>com.Servlets.Paiement</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Paiement</servlet-name>
+		<url-pattern>/Paiement</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Resume</servlet-name>
+		<servlet-class>com.Servlets.Resume</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Resume</servlet-name>
+		<url-pattern>/Resume</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>modifclient</servlet-name>
+		<servlet-class>com.Servlets.modifclient</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>modifclient</servlet-name>
+		<url-pattern>/modifclient</url-pattern>
+	</servlet-mapping>
+	           
+	            <servlet>
+		<servlet-name> afficherRese</servlet-name>
+		<servlet-class>com.Servlets.afficherRese</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> afficherRese</servlet-name>
+		<url-pattern>/afficherRese</url-pattern>
+	</servlet-mapping>
+	 
+	            <servlet>
+		<servlet-name> annulerRes</servlet-name>
+		<servlet-class>com.Servlets.annulerRes</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> annulerRes</servlet-name>
+		<url-pattern>/annulerRes</url-pattern>
+	</servlet-mapping>
+</web-app>
